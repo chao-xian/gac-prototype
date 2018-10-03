@@ -1,0 +1,31 @@
+{
+  "pieces":[
+    {
+      "object": "17621",
+      "title": "Van Gogh",
+      "artist": "Vincent Van Gogh",
+      "rgb": [
+          "7A7A99",
+          "7A7A99"
+        ]
+    },
+    {
+      "object": "17621",
+      "title": "Peanuts",
+      "artist": "Charles Schultz",
+      "rgb": [
+        "1114CC",
+        "552200"
+      ]
+    },
+    {
+      "object": "17621",
+    	"title": "Batman",
+    	"artist": "Bob Kane",
+    	"rgb": [
+    		"000000",
+    		"000022"
+    	]
+    }
+  ]
+}
