@@ -7,22 +7,30 @@ const artPieces = require(__dirname+"/data/art")
 
 router.get("/", function(req, res){
 
-  let data = {}
-  data.searchRgb = req.query.rgb
+  let data = {};
+  const encodedHashMatch = /^\%23/
+  const hashMatch = /\#/
+  let rgbVal = '';
 
-  data.results = []
+  if (req.query.rgb !== undefined) {
+    rgbVal = req.query.rgb.replace(encodedHashMatch, '').replace(hashMatch, '');
+  }
 
-  for (let piece of artPieces.pieces){
-    for (let pieceRgb of piece.rgb){
-      if (data.searchRgb === pieceRgb){
-        data.results.push(piece)
-        continue
+  data.searchRgb = rgbVal;
+
+  data.results = [];
+
+  for (let piece of artPieces.pieces) {
+    for (let pieceRgb of piece.rgb) {
+      if (data.searchRgb === pieceRgb) {
+        data.results.push(piece);
+        continue;
       }
     }
   }
 
-  res.render('index', data)
+  res.render('index', data);
 
 })
 
-module.exports = router
+module.exports = router;
