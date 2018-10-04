@@ -5,11 +5,10 @@ const artPieces = require(__dirname+"/data/art")
 
 // Add your routes here - above the module.exports line
 
-router.get("/", function(req, res){
-
+router.get("/", function(req, res) {
   let data = {};
-  const encodedHashMatch = /^\%23/
-  const hashMatch = /\#/
+  const encodedHashMatch = /^\%23/;
+  const hashMatch = /\#/;
   let rgbVal = '';
 
   if (req.query.rgb !== undefined) {
@@ -30,7 +29,6 @@ router.get("/", function(req, res){
   }
 
   res.render('index', data);
-
 })
 
 module.exports = router;
