@@ -17,4 +17,9 @@ $govuk-global-styles: true;
   display: inline-block;
   width: 20px;
   height: 20px;
+  padding-right: 60px;
+
+  a:visited {
+    color: #005ea5
+  }
 }

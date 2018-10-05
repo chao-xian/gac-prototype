@@ -13,11 +13,25 @@
         Discover the collection by colour
       </h1>{{releaseVersion | log }}
 
-      <form method="get" action="#">
+      <!-- <form method="get" action="#">
         <p><span class="swatch" style="background-color: #{{searchRgb}}"></span></p>
         <input name="rgb" type="color" value="{{searchRgb}}">
         <input type="submit">
-      </form>
+      </form> -->
+
+      <ul>
+                    <li><span class="swatch" style="background-color: #000000"><a href="?rgb=%23000000&colour=black">black </span></a></li>
+                    <li><span class="swatch" style="background-color: #0000FF"><a href="?rgb=%230000FF&colour=blue">blue </span></a></li>
+                    <li><span class="swatch" style="background-color: #008000"><a href="?rgb=%23008000&colour=green">green </span></a></li>
+                    <li><span class="swatch" style="background-color: #00FF00"><a href="?rgb=%2300FF00&colour=lime">lime </span></a></li>
+                    <li><span class="swatch" style="background-color: #800000"><a href="?rgb=%23800000&colour=red">red </span></a></li>
+                    <li><span class="swatch" style="background-color: #000080"><a href="?rgb=%23000080&colour=navy">navy </span></a></li>
+                    <li><span class="swatch" style="background-color: #808000"><a href="?rgb=%23808000&colour=olive">olive </span></a></li>
+                    <li><span class="swatch" style="background-color: #800080"><a href="?rgb=%23800080&colour=purple">purple </span></a></li>
+                    <li><span class="swatch" style="background-color: #008080"><a href="?rgb=%23008080&colour=teal">teal </span></a></li>
+                    <li><span class="swatch" style="background-color: #FFFFFF"><a href="?rgb=%23FFFFFF&colour= white"> white </span></a></li>
+                    <li><span class="swatch" style="background-color: #FFFF00"><a href="?rgb=%23FFFF00&colour= yellow"> yellow </span></a></li>
+      </ul>
 
       {% for result in results %}
 
@@ -25,14 +39,14 @@
         <h1>{{result.title}}</h1>
 
 
-        <p><img src="/public/images/gallery/{{result.object}}.jpg"></p>
+        <p><img src="/public/images/gallery/{{result.image_large}}"></p>
         <h2>{{result.artist}}</h2>
 
         <p>Date:</p>
 
-        <p>Medium:</p>
+        <p>Medium: {{result.object_name}}</p>
 
-        <p>Where it came from:</p>
+        <p>Where it came from: {{result.acquisition}}</p>
 
       {% endfor %}
 
