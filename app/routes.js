@@ -27,20 +27,17 @@ router.get("/", function(req, res) {
 
   data.results = [];
 
-  artPieces.sort(function(a, b){
-    return b[req.query.colour] - a[req.query.colour];
-  });
+  if (req.query.colour !== undefined) {
+    artPieces.sort(function(a, b){
+      return b[req.query.colour] - a[req.query.colour];
+    });
 
-  for (let piece of artPieces) {
-    console.log(`HI ${piece[req.query.colour]}`);
-    data.results.push(piece)
-    // for (let pieceRgb of piece.rgb) {
-      // if (data.searchRgb === pieceRgb) {
-      //   data.results.push(piece);
-      //   continue;
-      // }
-    // }
+    for (let piece of artPieces) {
+      console.log(`HI ${piece[req.query.colour]}`);
+      data.results.push(piece);
+    }
   }
+
 
   res.render('index', data);
 })
