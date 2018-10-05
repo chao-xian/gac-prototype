@@ -29,7 +29,17 @@ router.get("/", function(req, res) {
 
   if (req.query.colour !== undefined) {
     artPieces.sort(function(a, b){
-      return b[req.query.colour] - a[req.query.colour];
+      let bVal, aVal;
+
+      if (a[req.query.colour] === 'NA') {
+        aVal = 0;
+      }
+
+      if (b[req.query.colour] === 'NA') {
+        bVal = 0;
+      }
+
+      return bVal - aVal;
     });
 
     for (let piece of artPieces) {
