@@ -29,7 +29,7 @@ router.get("/", function(req, res) {
 
   if (req.query.colour !== undefined) {
     artPieces.sort(function(a, b) {
-      return b[req.query.colour] - a[req.query.colour];
+      return parseFloat(b[req.query.colour]) - parseFloat(a[req.query.colour]);
     });
 
     for (let piece of artPieces) {
@@ -38,7 +38,12 @@ router.get("/", function(req, res) {
     }
   }
 
-
+  // res.set({
+  //   'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+  //   'Pragma': 'no - cache',
+  //   'Expires': '0',
+  //   'Surrogate-Control': 'no-store',
+  // });
   res.render('index', data);
 })
 
