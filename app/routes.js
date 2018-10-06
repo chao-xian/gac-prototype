@@ -26,7 +26,7 @@ router.get("/", function(req, res) {
     });
 
     for (let piece of artPieces) {
-      console.log(`HI ${piece[req.query.colour]}`);
+      console.log(`${data.colour} percentage: ${piece[data.colour]}`);
       data.results.push(piece);
     }
   }
