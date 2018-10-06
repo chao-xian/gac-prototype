@@ -12,19 +12,12 @@ router.get("/", function(req, res) {
   const hashMatch = /\#/;
   let rgbVal = '';
 
-
-  // Make page have a bunch of links for each swatch
-  // Link sends off param with the rgb hex value
-  // When it gets here, we search the data for items that have that colour
-  // and then sort
-
-
   if (req.query.rgb !== undefined) {
     rgbVal = req.query.rgb.replace(encodedHashMatch, '').replace(hashMatch, '');
   }
 
   data.searchRgb = rgbVal;
-
+  data.colour = req.query.colour;
   data.results = [];
 
   if (req.query.colour !== undefined) {
@@ -38,13 +31,7 @@ router.get("/", function(req, res) {
     }
   }
 
-  // res.set({
-  //   'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
-  //   'Pragma': 'no - cache',
-  //   'Expires': '0',
-  //   'Surrogate-Control': 'no-store',
-  // });
   res.render('index', data);
-})
+});
 
 module.exports = router;
