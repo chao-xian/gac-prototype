@@ -1,0 +1,280 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>Government Art Collection - Contact us</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="imagetoolbar" content="no"/>
+        <meta name="author" content="Government Art Collection"/>
+        <meta name="description" content="Government Art Collection"/>
+        <meta name="keywords" content="Government Art Collection"/>
+	<link href="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<link href="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/css/ui.easytree.css" rel="stylesheet" type="text/css"/>
+	<link href="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/css/sitemap.css" rel="stylesheet" type="text/css"/>   
+        <link href="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/css/styles.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/css/jquery.fancybox.css" media="screen" />
+        <script type="text/javascript" src="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/jquery.js"></script>
+	<script type="text/javascript" src="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/jquery180.js"></script>
+	<script type="text/javascript" src="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/system.js"></script>
+	<script type="text/javascript" src="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/jqueryPD.js"></script>
+	<script type="text/javascript" src="ZoomifyImageViewerFree-min.js"></script>
+	<script type="text/javascript" src="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/fancybox.jquery.js"></script>
+
+		
+        <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+             *  Simple image gallery. Uses default settings
+             */
+ 
+            $('.fancybox').fancybox(); 
+ 
+        });
+        </script>
+
+        <style type="text/css">
+            .fancybox-custom .fancybox-skin {
+                box-shadow: 0 0 50px #222;
+            }
+        </style>
+		
+    </head>
+    <body>
+        <div id="accesskeyLinks">
+    <ul>
+        <li><a href="https://www.gac.culture.gov.uk/406" accesskey="0" title="Access keys (alt + 0)">access key for access keys (alt + 0) </a></li>
+        <li><a href="https://www.gac.culture.gov.uk" accesskey="1" title="Home page (alt + 1)">access key for the home page</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/features" accesskey="2" title="Features (alt + 2)">access key for features</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/sitemap" accesskey="3" title="Site map (alt + 3)">access key for site map</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/collection" accesskey="4" title="The collection (alt + 4)">access key for collection</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/faqs" accesskey="5" title="FAQ (alt + 5)">access key for FAQs</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/115" accesskey="6" title="Help (alt + 6)">access key for help</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/contact" accesskey="7" title="Contact us (alt + 7)">access key for contact us</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/116" accesskey="8" title="Terms and conditions (alt + 8)">access key for terms and conditions</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/resources" accesskey="G" title="Resources (alt + G)">access key for resources</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/visit" accesskey="K" title="Visit us (alt + K)">access key for visit us</a></li>
+        <li><a href="https://www.gac.culture.gov.uk/copyright" accesskey="N" title="Crown copyright (alt + N)">access key for crown copyright</a></li>
+        <li><a href="#navSecondary" accesskey="S" title="Skip to channel navigation (alt + S)">skip to channel navigation</a></li>
+    </ul>
+</div>
+
+        <div id="container">
+        
+        
+        
+
+            <div id="branding">
+    <a id="brandingLogo" href="https://www.gac.culture.gov.uk" title="Government Art Collection Home"></a>
+    <div id="search">
+        <p>Search</p>
+        <form method="get" id="searchForm" action="https://www.gac.culture.gov.uk" role="search">
+            <div class="inputContainer">
+                <input name="s" id="s" type="text" />
+                <button type="submit" id="searchButton" value=""></button>
+            </div>
+            <ul style="visibility:hidden;">
+                <li>
+                    <input id="searchCollection" type="radio" name="search" value="Collection"/>
+                    <label for="searchCollection">Collection</label> -->
+                </li>
+            </ul>
+        </form>
+    </div>
+    <a id="dcms" target="_new" href="http://www.gov.uk/dcms" title="Department for Culture, Media and Sport Home"></a>
+</div>
+
+            <ul id="nav">
+                <li><a class="home" href="https://www.gac.culture.gov.uk">Home</a></li>
+                <li><a href="https://www.gac.culture.gov.uk/collection">Collection</a></li>
+                <li><a href="https://www.gac.culture.gov.uk/features">Features</a></li>
+                <li><a href="https://www.gac.culture.gov.uk/resources">Resources</a></li>
+                <li><a href="https://www.gac.culture.gov.uk/visit">Visit us</a></li>
+                <!-- <li id="activeNav"><a href="https://www.gac.culture.gov.uk/contact">Contact us</a></li> -->
+                <li><a href="https://www.gac.culture.gov.uk/contact">Contact us</a></li>
+                <!-- <li><a href="https://www.gac.culture.gov.uk/blog">Blog</a></li> -->
+            </ul>
+
+
+	<main role="main">
+		<!-- section -->
+		<section>
+
+			<h1></h1>
+
+		
+			<!-- article -->
+			<article id="post-920" class="post-920 page type-page status-publish hentry">
+
+				
+<div id="content">
+<div id="navSecondary">
+<h1>The Collection</h1>
+<ul id="navSection">
+<li class="active"><a href="/artists_list">Artists</a></li>
+<li><a href="/portraits_list">Portraits</a></li>
+<li><a href="/places_browser">Places</a></li>
+<li><a href="/subjects_browser">Subjects</a></li>
+<li><a href="/timeline">Timeline</a></li>
+<li><a href="/locations_browser">Current Locations</a></li>
+<li><a href="/advanced_search">Advanced Search</a></li>
+</ul>
+                </div>
+                <div id="contentMain">
+
+                    <div id="zoom">
+
+                        <div id="zoomImage" class="canZoom" title="" zoom="" largeimage="">
+			<a id="zoomImageLarge" class="fancybox" href="">
+			<center><img src="images/Large/12090.jpg" alt="" style="max-width: 400px; max-height: 400px;"/></center>
+			</div>
+                        <script language="javascript" type="text/javascript">
+                            // This needs to be done here and not on the click event, because the HTML5 Zoomify code
+                            // does not run on the click event.
+                            var zoomimg = $('#zoomImage');
+                            if (zoomimg.attr('zoom') != '')
+                            {
+	                            Z.showImage("zoomPlayer", zoomimg.attr('zoom'))
+                            }                            
+               
+                        </script>
+                        
+                        <div id="zoomDetails"><h2><a href="/gacdb/search.php?mode=artistslist&id=9522">Richard Beer</a></h2><p>Ten Wren Churches<br /><br />© Richard Beer<br /><a href="/licensing-images" target=_top>License this image</a></p></div>
+                        <br/><br/>
+
+                    </div>
+
+                    <a name="tabs"></a>
+                    <h5>Tab Label (see title)</h5>
+                    <div class="containerWork" title="Details">
+                        <div id="detailsArtWork" class="contentWork"><table>
+<tr><td class="cell1">Artist</td><td class="cell2"><a href="/gacdb/search.php?mode=artistslist&id=9522">Richard Beer (1928)</a></td></tr>
+<tr><td class="cell1">Title</td><td class="cell2">Ten Wren Churches</td></tr><tr><td class="cell1">Date</td>
+<td class="cell2">1970</td></tr>
+<tr><td class="cell1">Medium</td><td class="cell2">Etching and screenprint</td></tr>
+<tr><td class="cell1">Provenance</td><td class="cell2"></td></tr>
+<tr><td class="cell1">Dimensions</td><td class="cell2"></td></tr>
+<tr><td class="cell1">Inscription</td><td class="cell2">below image: St Augustine  42/75  /  Richard Beer</td></tr>
+<tr><td>Acquisition</td><td class="cell2">Purchased from Editions Alecto, January 1971</td></tr>
+<tr><td>Location</td><td class="cell2">Government Art Collection (London, UK)</td></tr>
+<tr><td>GAC number</td><td class="cell2">12090</td></tr>
+<tr><td></td><td class="cell2"></td></tr>
+<tr><td></td><td class="cell2"></td></tr></table><div class='clear'>&nbsp;</div></div>
+                        <div class="contentWork">
+                            <div id="columnOtherWork">
+                            </div>
+                            <div id="contentOtherWork">
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <h5>Tab Label (see title)</h5>
+                    <div id="containerWorkDescription" class="containerWork" title="About the work">
+                        <div id="contentWorkDescription" class="contentWorkDescription"><p><p>Not available</p></p></div>
+                    </div>
+                    <h5>Tab Label (see title)</h5>
+                    <div id="containerWorkSubject" class="containerWork" title="Subjects">
+                        <div id="contentWorkSubjects"><p>This work contains the following subjects; choose a subject below to cross-refer to other works in the collection:</p>
+			<ul>
+				<li><a href="/gacdb/search.php?mode=subjectslist&id=10703">topography</a></li>
+<li><a href="/gacdb/search.php?mode=subjectslist&id=10759">townscape/cityscape</a></li>
+<li><a href="/gacdb/search.php?mode=subjectslist&id=9761">church</a></li>
+<li><a href="/gacdb/search.php?mode=subjectslist&id=9782">spire</a></li>
+<li><a href="/gacdb/search.php?mode=subjectslist&id=9762">cathedral</a></li>
+<li><a href="/gacdb/search.php?mode=subjectslist&id=9784">dome</a></li>
+
+			</ul></div>
+                        <div class="contentWork">
+                        </div>
+                    </div>
+                    <h5>Tab Label (see title)</h5>
+                    <div id="containerWorkSubject" class="containerWork" title="Places">
+                        <div id="contentWorkSubjects"><p>This work contains the following places; choose a subject below to cross-refer to other works in the collection:</p>
+                        <ul>
+                                <li><a href="/gacdb/search.php?mode=placeslist&id=40185">England</a></li>
+<li><a href="/gacdb/search.php?mode=placeslist&id=41094">London</a></li>
+<li><a href="/gacdb/search.php?mode=placeslist&id=41221">City of London</a></li>
+
+                        </ul></div>
+                        <div class="contentWork">
+                        </div>
+                    </div>
+                    <h5>Tab Label (see title)</h5>
+                    
+                    <h5>Tab Label (see title)</h5>
+                    <div id="containerWorkSitters" class="containerWork" title="Sitters">
+                        <div id="contentWorkSitters"><p>This work contains the following Sitters; choose a link below to cross-refer to other works in the collection:</p>
+			<ul>
+			Not available
+			</ul>
+			</div>
+                        <div class="contentWork">
+                            <div id="columnWorkSittersSitter">
+                                <p></p>
+                            </div>
+                            <div id="contentWorkSittersArtwork">
+                                <table cellspacing="0">
+                                    <tr>
+                                        <td class="imageCell"></td>
+                                        <td></a></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <h5>Tab Label (see title)</h5>
+                    <div id="containerWorkBiography" class="containerWork" title="Artist Biography">
+                        <div id="contentWorkMakerBiography" class="contentWorkMakerBiography"><p class="contentWork">Not available</p></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <form name="localVars" method="post" action="https://www.gac.culture.gov.uk/work.aspx?obj=31635" id="localVars">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBAKdkuzoAwKdlrubDgKA1IjVDgKVsarICXt5EmGMFNisO/5s+CWpFPonY2Sg" />
+            <input type="hidden" name="hdnSelectedTab" id="hdnSelectedTab" value="0" />
+            <input type="hidden" name="hdnScrollPosn" id="hdnScrollPosn" value="0" />
+            <input type="hidden" name="hdnHasImage" id="hdnHasImage" value="Yes" />
+        </form>
+				
+        <ul id="navSupp">
+    <li>Follow us on <a href="http://www.facebook.com/governmentartcollection" target="_blank">Facebook <img src="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/images/site/StructureImages/facebook-f_logo-sm.png" /></a> and <a href="https://twitter.com/GovArtCol" target="_blank">Twitter <img src="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/images/site/StructureImages/twitter-bird-light-sm.png" /></a></li>
+    <li><a href="https://www.gac.culture.gov.uk/help">Help</a></li>
+    <li><a target="_new" title="Link to the DCMS website, opens in a new window" href="http://www.culture.gov.uk/about_us/freedom_of_information/default.aspx">Freedom of information</a></li>
+    <li><a href="https://www.gac.culture.gov.uk/privacy">Privacy and Cookies</a></li>
+    <li><a href="https://www.gac.culture.gov.uk/terms-conditions">Terms &amp; conditions</a></li>
+    <!-- <li><a href="https://www.gac.culture.gov.uk/sitemap">Sitemap</a></li> -->
+    <li><a href="https://www.gac.culture.gov.uk/accessibility">Accessibility</a></li>
+    <li><a href="https://www.gac.culture.gov.uk/copyright">Crown Copyright</a></li>
+    <li><a href="https://www.gac.culture.gov.uk/search-help">Collection Search Help</a></li>
+</ul>
+
+<script type="text/javascript">    
+var addthis_config = { "data_track_clickback": true, "data_use_flash": false, "data_use_cookies": false };</script>
+<script type="text/javascript" src="https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/addthis.js"></script>
+<br /><br />
+<!-- AddThis Button END -->
+
+
+<!-- <script type="text/javascript" src="621.html"></script> -->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18099650-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-18099650-3');
+</script>
+
+    </body>
+
+<script type='text/javascript' src='https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/lib/conditionizr-4.3.0.min.js?ver=4.3.0'></script>
+<script type='text/javascript' src='https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/lib/modernizr-2.7.1.min.js?ver=2.7.1'></script>
+<script type='text/javascript' src='https://www.gac.culture.gov.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.gac.culture.gov.uk/wp-content/themes/ukartcollection/js/scripts.js?ver=1.0.0'></script>
+
+</html>
+
+
